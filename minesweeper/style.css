@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+#game {
+    border: 3px solid rgb(114, 114, 114);
+    background-color: rgb(104, 104, 104);
+    display: inline-block;
+}
+
+#field {
+    background-color: rgb(104, 104, 104);
+    padding: 3px;
+}
+
+#levelSelect {
+    width: 100%;
+    margin: 3px 0;
+}
+
+.gameBtn {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    font-weight: 900;
+    background-color: #b6b6b6;
+    position: relative;
+    vertical-align: top;
+    padding: 0;
+}
+
+.gameBtn:active {
+    background-color: rgb(153, 153, 153);
+}
+
+.gameBtn:disabled {
+    color: black;
+}
+
+.btnClicked {
+    border-color: rgb(114, 114, 114);
+    background-color: #878787
+}
+
+#reset {
+    background-size: 30px 30px;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin:0 auto;
+    display:block;
+}
+
+.resetUnpressed {
+    background: url(./images/face_unpressed.svg) no-repeat;
+}
+
+.resetWin {
+    background: url(./images/face_win.svg) no-repeat;
+}
+
+.resetLose {
+    background: url(./images/face_lose.svg) no-repeat;
+}
